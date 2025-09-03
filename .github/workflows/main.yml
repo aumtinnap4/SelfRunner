@@ -28,7 +28,7 @@ jobs:
               spec:
                 containers:
                 - name: eshop-web-containers
-                  image: training911/eshopweb-k8s:1.0
+                  image: aumtinnap4/eshopweb-k8s:1.0
                   ports:
                   - containerPort: 3000
           ---
